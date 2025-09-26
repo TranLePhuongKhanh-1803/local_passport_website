@@ -13,11 +13,11 @@ mongoose.connect("mongodb://127.0.0.1:27017/passportAuth");
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 app.use(
-  session({
-    secret: "mysecret",
-    resave: false,
-    saveUninitialized: false
-  })
+    session({
+        secret: "mysecret",
+        resave: false,
+        saveUninitialized: false
+    })
 );
 app.use(passport.initialize());
 app.use(passport.session());
