@@ -15,3 +15,6 @@ Website chạy hoàn toàn **local** trên máy cá nhân (localhost) và lưu u
 ## Chạy chức năng trên localhost
 2.Login : http://localhost:3000/login
 ![Postman Test](./public/results/1_website.png)
+## Chạy chức năng trên localhost
+2.profile : http://localhost:3000/profile
+![Postman Test](./public/results/3_website.png)
